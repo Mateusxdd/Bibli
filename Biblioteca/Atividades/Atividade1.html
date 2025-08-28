@@ -1,0 +1,109 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Minha biblioteca Pessoal
+        </h1>
+        <nav>
+            <ul>
+                <a href="#meus-livros">Meus livros</a>
+                <a href="#adicionar-livro">Adicionar Novo Livro</a>
+                <a href="#estatisticas">Estatísticas</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Meus livros</h2>
+            <div>
+                <article>
+                    <h3>Título: Diário de um banana</h3>
+                    <p>Autor: Jeff Kinney</p>
+                    <p>Gênero: Comédia</p>
+                    <button>Ver detalhes</button>
+                </article>
+
+                <article>
+                    <h3>Título: Diário de um banana 2: Rodrick é o cara</h3>
+                    <p>Autor: Jeff Kinney</p>
+                    <p>Gênero: Comédia</p>
+                    <button>Ver detalhes</button>
+                </article>
+
+                <article>
+                    <h3>Título: Diário de um banana 3: A gota d’água</h3>
+                    <p>Autor: Jeff Kinney</p>
+                    <p>Gênero: Comédia</p>
+                    <button>Ver detalhes</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="adicionar-livro">
+            <h2>Adicionar Novo Livro</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações do Livro</legend>
+                    <input type="text" placeholder="Título do livro">
+                    <input type="text" placeholder="Autor">
+                    <input type="number" placeholder="Number">
+                    <input type="date" placeholder="Data de lançamento">
+                    <input type="radio" placeholder="Lido">
+                    <label>Lido</label>
+                    <input type="radio">
+                    <label for="lendo">lendo</label>
+                    <input type="radio" >
+                    <label >Quero ler</label>
+
+                </fieldset>
+
+                <button type="submit">Salvar Livro</button>
+            </form>
+        </section>
+
+        <section id="Estatisticas">
+            <h2> Estatisticas da Biblioteca</h2>
+            <table>
+                <h1>Total de livros por Gênero</h1>
+                <thead>
+                    <tr>Gênero:</tr>
+                    <th>Total de Livros:</th>
+                </thead>
+                <tbody>
+                    <tr>Ficção Cientifica</tr>
+                    <td>10</td>
+                </tbody>
+                <tfoot>
+                    <tr>
+                      <td colspan="2">Total Geral: 35 livros</td>
+                    </tr>
+                  </tfoot>
+            </table>
+        </section>
+
+        <section id="Dicas de Leituras">
+            <h2>Dicas de Leitura</h2>
+            <ol>Diário de um banana</ol>
+            <iframe width="560" height="315"
+          src="https://www.youtube.com/watch?v=G24MJhmq7Wo"
+          title="Dicas de Leitura"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>      
+      </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Minha Biblioteca</p>
+        <a href="#">Voltar ao topo</a>
+    </footer>
+</body>
+</html>
