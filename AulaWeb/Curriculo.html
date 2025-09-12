@@ -1,0 +1,137 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu currículo</title>
+</head>
+<body>
+
+    <header>
+    <!-- Como fazer uma nav -->
+        <h1> Mateus Anastacio Santos </h1>
+        <h2> Desenvolvedor web </h2>
+        <nav>
+             <a href="#">Sobre</a>
+             <a href="#">Experiência</a>
+             <a href="#">Formação</a>
+             <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+    <!-- Como usar str e em-->
+        <p>👋 Olá! Meu nome é <strong>Mateus Anastácio Santos</strong> e sou um desenvolvedor <strong><em>júnior</em></strong> com foco em criação de interfaces web e aplicações dinâmicas. Tenho conhecimento em HTML, CSS, JavaScript, Java e React, tecnologias que venho utilizando para desenvolver projetos e aprimorar minhas habilidades.
+
+            Sou apaixonado por tecnologia e estou sempre em busca de aprender mais e aplicar boas práticas no meu código. Meu objetivo é evoluir constantemente como programador, contribuindo com projetos desafiadores e colaborativos.
+            
+            Atualmente, busco oportunidades para ganhar mais experiência prática, participar de equipes de desenvolvimento e continuar crescendo na área de desenvolvimento web.</p>
+        
+        <section id="Experiência-Profissional">
+                <!-- Como trabalhar com tabelas-->
+            <table>
+                <h1>Experiência Profissional</h1>
+                <tr>Jovem aprendiz Operacional - 2021-2022</tr>
+                <th>Empresa: Siemens</th>
+            </table>
+
+                <h1>Formação Acadêmica</h1>
+                
+                   <ul> <li>Ensino médio - E.E. Dr Antônio Pereira Lima (08/2024 - 02/2026)</ul></ul>
+                   <ul><li>Técnico em desenvolvimento de sistemas  - Senac (08/2024 - 02/2026)</ul></ul> 
+                   <ul><li>Ciências da computação  - Cruzeiro do sul (08/2025 - 12/2029)</ul></ul> 
+        </section>
+
+        <section id="Habilidades">
+            <div>
+                <!-- Como trabalhar com tabelas e usar ol ul e li-->
+                <h3>Habilidades</h3>
+                <table>
+                <ul><li>Html 5</li></ul>
+                <ul><li>CSS3</li></ul>
+                <ul><li>C#</li></ul>
+                <ul><li>Java</li></ul>
+                <ul><li>SQL</li></ul>
+                <ul><li>noSQL</li></ul>
+                <ul><li>BootsTrap</li></ul>
+                <ul><li>React</li></ul>
+                <ul><li>JavaScript</li></ul>
+                </table>
+            </div>
+
+            <div>
+                <h3>Habilidades interpessoais</h3>
+                <table>
+                    <ol>
+                        <li>Simpatia</li>
+                        <li>Empatia</li>
+                        <li>Sociabilidade</li>
+                    </ol>
+                </table>
+            </div>
+
+            <div>
+                <figure>
+                    <img src="https://learn.microsoft.com/pt-br/azure/developer/java/get-started/media/visual-studio-code.jpg" alt="Java">
+                    <figcaption>Codando java</figcaption>
+                </figure>
+
+                <video controls><source src="https://www.youtube.com/watch?v=mhfJSTJTnXU" type="video/mp4"></video controls>
+            </div>
+        </section>
+        
+        <section id="Contato">
+             <!-- Como Fazer um formulário completo-->
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações</legend>
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" >
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Como prefere ser contatado?</legend>
+                    <label><input type="radio" name="contato" value="email"> Email</label>
+                    <label><input type="radio" name="contato" value="telefone"> Telefone</label>
+                    <label><input type="radio" name="contato" value="whatsapp"> WhatsApp</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Áreas de interesse</legend>
+                    <label><input type="checkbox" name="interesse" value="frontend"> Front-End</label>
+                    <label><input type="checkbox" name="interesse" value="backend"> Back-End</label>
+                    <label><input type="checkbox" name="interesse" value="ux"> UX/UI</label>
+                </fieldset>
+                <fieldset>
+                    <label for="linguagem">Selecione sua linguagem favorita:</label>
+                    <select id="linguagem" name="linguagem" required>
+                        <option value="0">-- Escolha uma linguagem --</option>
+                        <option value="1">-- Java --</option>
+                        <option value="2">-- CSS3 --</option>
+                        <option value="3">-- C# --</option>
+                        <option value="4">-- SQL --</option>
+                        <option value="5">-- JavaScript --</option>
+                    </select>
+
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar Formulário</button>
+             </form>
+        </section>
+    </main>
+    <footer>
+        <h1>Mateus Anastacio Santos</h1>
+        <h4>Desenvolvedor</h4>
+        <p>Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
