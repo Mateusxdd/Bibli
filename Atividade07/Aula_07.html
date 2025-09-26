@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com JavaScript</title>
+    <link rel="stylesheet" href="Aula_07.css"> 
+</head>
+<body>
+    <div class="calculator-panel">
+        <h2 style="text-align: center; color: #007bff; margin-bottom: 25px;">Calculadora</h2>
+        
+        <div class="input-group">
+            <label for="valor_1">Valor 1:</label>
+            <input type="text" id="valor_1" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="valor_2">Valor 2:</label>
+            <input type="text" id="valor_2" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="operacao">Operação:</label>
+            <select name="operacao" id="operacao">
+                <option value="">Selecione a operação</option>
+                <option value="+">Soma</option>
+                <option value="-">Subtração</option>
+                <option value="*">Multiplicação</option>
+                <option value="/">Divisão</option>
+            </select>
+        </div>
+        
+        <p id="mensagemErro"></p>
+        
+        <button id="btnCalc" onclick="obterValores()">Calcular</button>
+        
+        <p id="resultado">Resultado: </p>
+    </div>
+
+    <script src="Aula_07.js"> </script>
+    <script src="OperMatematica.js"> </script>
+</body>
+</html>

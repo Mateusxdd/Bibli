@@ -1,0 +1,34 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Atividade7.css">
+    <title>Atividade</title>
+</head>
+<body>
+    <div class="calc">
+        <h1>Calculadora</h1>
+       <form class="form">
+        <div class="Valores">
+            <label for="Val1">Valor 1:</label>
+            <input type="text" id="Val1">
+            <label for="Val2">Valor 2:</label>
+            <input type="text" id="Val2">
+        </div>
+        <div class="Operação">
+            <label for="Operação">Operação</label>
+            <select name="Operação" id="Operacao">
+                <option value="0"></option>
+                <option value="1">+ (Soma)</option>
+                <option value="2">- (Subtração)</option>
+                <option value="3">x (Multiplicação)</option>
+                <option value="4">/ (Divisão)</option>
+            </select>
+        </div>
+        <button id="btnCalc" onclick="obterValores()">Calcular</button>
+       </form>
+       <h1 id="result">Resultado </h1>
+    </div>
+</body>
+<link rel="stylesheet" href="Interface.js">
+</html>
